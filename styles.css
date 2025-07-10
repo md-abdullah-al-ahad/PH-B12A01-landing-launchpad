@@ -101,7 +101,7 @@ nav {
 .left-section {
     width: 517px;
     height: 203px;
-    padding: 62.5px;
+    padding-top: 62.5px;
 }
 
 .left-section button {
@@ -123,4 +123,42 @@ nav {
 
 .right-section img {
     border-radius: 50px;
+}
+
+.prod-users{
+    width: 1140px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 138px;
+}
+
+.prod-users-headline{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 38px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.number-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.numbers{
+    color: #4E47FF;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+.number-info{
+    font-family: 'Inter', sans-serif;
+    color: #00000050;
+    text-align: center;
+    font-size: 20px;
 }
