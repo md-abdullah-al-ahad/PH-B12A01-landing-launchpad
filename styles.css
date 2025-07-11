@@ -8,6 +8,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 790px;
 }
 
 nav {
@@ -31,13 +32,21 @@ nav {
     font-family: 'Raleway', sans-serif;
     padding: 12px 36px;
     border: none;
+    border: 1px solid transparent;
     border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+    transform-origin: center center;
+}
+
+.sign-up-button:hover {
+    background-color: #FFFFFF;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
+    transform: scale(1.05);
 }
 
 .stay-focused-button {
-    width: 174px;
-    height: 48px;
     font-size: 16px;
     color: white;
     background-color: #4E47FF;
@@ -47,7 +56,15 @@ nav {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-bottom: 250px;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+    transform-origin: center center;
+}
+
+.stay-focused-button:hover {
+    background-color: #FFFFFF;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
+    transform: scale(1.05);
 }
 
 .main-banner {
@@ -82,7 +99,7 @@ nav {
     margin-top: 300px;
     margin-bottom: 116px;
     padding: 0 150px;
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .action-text {
@@ -102,7 +119,7 @@ nav {
 .left-section {
     width: 517px;
     height: 203px;
-    padding-top: 62.5px;
+
 }
 
 .left-section button {
@@ -115,6 +132,15 @@ nav {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+    transform-origin: center center;
+}
+
+.left-section button:hover {
+    background-color: #FFFFFF;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
+    transform: scale(1.05);
 }
 
 .right-section {
@@ -273,10 +299,19 @@ nav {
     background-color: #4E47FF;
     font-family: 'Raleway', sans-serif;
     padding: 12px 36px;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 10px;
     cursor: pointer;
     margin-bottom: 30px;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+    transform-origin: center center;
+}
+
+.action-2 button:hover {
+    background-color: #FFFFFF;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
+    transform: scale(1.05);
 }
 
 .wc-container {
@@ -352,13 +387,22 @@ nav {
     background-color: #4E47FF;
     font-family: 'Raleway', sans-serif;
     padding: 19px 101px;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-footer{
+.contact-form button:hover {
+    background-color: #FFFFFF;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
+}
+
+
+
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -369,7 +413,7 @@ footer{
     justify-content: center;
 }
 
-.footer-logo{
+.footer-logo {
     font-size: 100px;
     color: #4E47FF;
     font-weight: bold;
@@ -377,21 +421,21 @@ footer{
     margin-bottom: 20px;
 }
 
-.footer-tagline{
+.footer-tagline {
     width: 531px;
     color: #8987A1;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.footer-links{
+.footer-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 531px;
 }
 
-.footer-links a{
+.footer-links a {
     color: #8987A1;
     text-decoration: none;
 }
