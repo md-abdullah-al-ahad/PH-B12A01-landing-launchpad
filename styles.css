@@ -280,3 +280,71 @@ nav {
 .wc-container img{
     border-radius: 48px;
 }
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 632px;
+    width: 1140px;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    box-sizing: border-box;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    height: 490px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter p{
+    width: 528px;
+    font-size: 97px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.contact-form label{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5px;
+}
+
+.contact-form input{
+    border: 1px solid #D6DDED;
+}
+
+.contact-form textarea{
+    border: 1px solid #D6DDED;
+    resize: none;
+}
+
+.email-name{
+    height: 50px;
+    padding: 10px 0px 10px 15px;
+    border-radius: 5px;
+}
+.message{
+    height: 100px;
+    padding: 20px 0px 0px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form button{
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    font-family: 'Raleway', sans-serif;
+    padding: 19px 101px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
