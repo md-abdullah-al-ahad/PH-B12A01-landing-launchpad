@@ -321,7 +321,16 @@ nav {
 
 .wc-container img {
     border-radius: 48px;
+    cursor: pointer;
+    transition: border-radius 0.25s ease,transform 0.25s ease;
+    transform-origin: center center;
 }
+
+.wc-container img:hover{
+    border-radius: 0px;
+    transform: scale(1.05);
+}
+
 
 .newsletter {
     display: flex;
