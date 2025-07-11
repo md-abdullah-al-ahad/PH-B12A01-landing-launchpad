@@ -94,11 +94,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 1196px;
     height: 328px;
     margin-top: 300px;
     margin-bottom: 116px;
-    padding: 0 150px;
+    margin-left: 150px;
+    margin-right: 150px;
     box-sizing: border-box;
 }
 
